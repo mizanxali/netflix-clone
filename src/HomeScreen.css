@@ -1,0 +1,91 @@
+.homeScreen {
+    position: relative;
+    height: 100%;
+    background: url("https://i.ibb.co/vXqDmnh/background.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.homeScreen_logo {
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.homeScreen_button {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.homeScreen_gradient {
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+}
+
+.homeScreen_body {
+    z-index: 1;
+    color: white;
+    position: fixed;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+
+.homeScreen_body > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+
+.homeScreen_body > h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.homeScreen_body > h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.homeScreen_input {
+    margin: 20px;
+}
+
+.homeScreen_input > form > input {
+    padding: 10px;
+    outline: none;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+
+.homeScreen_input_button {
+    font-size: 1rem;
+    padding: 16px 20px;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+}
